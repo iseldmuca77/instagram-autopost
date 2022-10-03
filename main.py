@@ -14,7 +14,7 @@ from selenium.webdriver.common.actions.pointer_input import PointerInput
 
 
 desired_cap ={
-    "deviceName": "be39be96",
+    "deviceName": "be39gfbe9436",
     "platformName": "Android"
 }
 driver = webdriver.Remote("http://localhost:4723/wd/hub",desired_cap)
@@ -23,7 +23,7 @@ actions = ActionChains(driver)
 actions.w3c_actions = ActionBuilder(driver, mouse=PointerInput(interaction.POINTER_TOUCH, "touch"))
 
 
-description = 'Rate it 1-10 in the comments 🔥\n\nFollow 👉 @fast_cars.al 👈 for more! 🏎\nFollow 👉 @fast_cars.al 👈 for more! 🏎\nFollow 👉 @fast_cars.al 👈 for more! 🏎\n\n-\n\n#car #cargram #carlifestyle #carphotography #carinstagram #carshow #cars #carlovers #cargramm #carsofinstagram #carswithoutlimits #carstagram #carsdaily #caroftheday'
+description = 'Description'
 
 
 def main():
